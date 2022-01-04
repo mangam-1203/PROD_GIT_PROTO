@@ -7,7 +7,7 @@ service HelloService {
   rpc BidiHello(stream HelloRequest) returns (stream HelloResponse);
 }
 message HelloRequest {
-  optional string greeting = 46775;
+  optional string greeting = 46774;
 }
 message HelloResponse {
   required string reply = 1;
