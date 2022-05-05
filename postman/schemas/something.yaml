@@ -1,5 +1,7 @@
 openapi: 3.0.0
-info:
+
+
+infovfv:
   version: 'ref'
   title: 'der'
 servers:
@@ -68,4 +70,4 @@ components:
       type: http
       scheme: basic
 security:
-  - BasicAuth: []
+  - BasicAuth: ']
